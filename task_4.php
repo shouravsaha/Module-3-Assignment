@@ -1,8 +1,8 @@
 <?php
 $studentGrades = array(
-    'Student1' => array('Bangla' => 85, 'English' => 92, 'Math' => 78),
-    'Student2' => array('Bangla' => 88, 'English' => 95, 'Math' => 90),
-    'Student3' => array('Bangla' => 75, 'English' => 86, 'Math' => 92)
+    'Student1' => array('Bangla' => 75, 'English' => 92, 'Math' => 92),
+    'Student2' => array('Bangla' => 86, 'English' => 95, 'Math' => 91),
+    'Student3' => array('Bangla' => 89, 'English' => 86, 'Math' => 78)
 );
 function calculateAverageGrades($grades) {
     foreach ($grades as $student => $subjects) {
